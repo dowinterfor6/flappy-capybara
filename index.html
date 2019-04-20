@@ -5,44 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flappy Capybara</title>
-    <!-- <link rel="icon" href="assets/images/capy-sprite.png" type="image/png"> -->
     <link rel="stylesheet" href="styles/reset.css" type="text/css">
     <link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:light,regular" rel="stylesheet">
-    <script type="text/javascript" src="dist/main.js" charset="UTF-8" defer></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
     <section class="nav-bar">
         <section class="nav-description">
             <h1>Flappy Capybara</h1>
-            <h2>by dowinterfor6</h2>
+            <h2>by Andrew Chan</h2>
         </section>
         <section class="nav-bar-right">
             <ul>
-                <!-- <li><a href="">Other Projects</a></li> -->
-                <!-- make this into a dropdown later -->
-                <!-- <li><a href="https://github.com/dowinterfor6/">Github</a></li> -->
-                <!-- <li><a href="about-me.html">About Me</a></li> -->
-                <!-- use AJAX -->
+                <li><a href="https://github.com/dowinterfor6">My Github</a></li>
             </ul>
-            <img src="./assets/images/capy-sprite.png">
         </section>
     </section>
     
     <audio id="start-audio" loop preload="auto" src="./assets/audio/start-screen-music.mp3"></audio>
     <audio id="gameplay-music" loop preload="auto" src="./assets/audio/gameplay-music-db-adjusted.mp3"></audio>
-    <audio id="dead" preload="none" src="./assets/audio/failure.wav"></audio>
 
     <section class="main-content">
         <aside>
             <h2>Description</h2>
             <p>
-                A flappy bird clone with a twist---flappy capybara! With basic game mechanics implemented
-                and two different background music, as well as a looping background, this simple game was 
-                built to experiment with applications of Javascript and animation with HTML canvas. Difficulty
-                has been adjusted to attempt to match that of the actual game, though hitbox remains a little
-                bit larger than the shown capybara. 
+                A flappy bird clone with a twist---flappy capybara! With a basic implementation of game mechanics,
+                 as well as a looping background, this is a little experiment with applications of Javascript and 
+                animation with HTML canvas. Raw code has not been refactored at all, and represents roughly 12 hours
+                of work. Capybara hitbox isn't accurate, it's currently a rectangle slightly smaller than the extremes
+                of the sprite.
             </p>
         </aside>
         <canvas id="capy-game" height="640" width="480"></canvas>
@@ -53,7 +46,7 @@
                 <li>Pipes: Andrew Chan</li>
                 <li>Background: <a href="https://www.123RF.com">https://www.123RF.com</a></li>
                 <li>Music: 8 Bit Beginning! and Love! by HeatleyBros</li>
-                <li>Skeleton: Built off App Academy project reference</li>
+                <li>Skeleton: Based off App Academy project reference</li>
             </ul>
         </aside>
     </section>
