@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flappy Capybara</title>
+    <!-- <link rel="icon" href="assets/images/capy-sprite.png" type="image/png"> -->
+    <link rel="stylesheet" href="styles/reset.css" type="text/css">
+    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:light,regular" rel="stylesheet">
+    <script type="text/javascript" src="dist/main.js" charset="UTF-8" defer></script>
+</head>
+
+<body>
+    <section class="nav-bar">
+        <section class="nav-description">
+            <h1>Flappy Capybara</h1>
+            <h2>by dowinterfor6</h2>
+        </section>
+        <section class="nav-bar-right">
+            <ul>
+                <!-- <li><a href="">Other Projects</a></li> -->
+                <!-- make this into a dropdown later -->
+                <!-- <li><a href="https://github.com/dowinterfor6/">Github</a></li> -->
+                <!-- <li><a href="about-me.html">About Me</a></li> -->
+                <!-- use AJAX -->
+            </ul>
+            <img src="./assets/images/capy-sprite.png">
+        </section>
+    </section>
+    
+    <audio id="start-audio" loop preload="auto" src="./assets/audio/start-screen-music.mp3"></audio>
+    <audio id="gameplay-music" loop preload="auto" src="./assets/audio/gameplay-music-db-adjusted.mp3"></audio>
+    <audio id="dead" preload="none" src="./assets/audio/failure.wav"></audio>
+
+    <section class="main-content">
+        <aside>
+            <h2>Description</h2>
+            <p>
+                A flappy bird clone with a twist---flappy capybara! With basic game mechanics implemented
+                and two different background music, as well as a looping background, this simple game was 
+                built to experiment with applications of Javascript and animation with HTML canvas. Difficulty
+                has been adjusted to attempt to match that of the actual game, though hitbox remains a little
+                bit larger than the shown capybara. 
+            </p>
+        </aside>
+        <canvas id="capy-game" height="640" width="480"></canvas>
+        <aside>
+            <h2>Credits</h2>
+            <ul>
+                <li>Capybara sprite: Jennifer Yao (special shoutout for the quick sketch!)</li>
+                <li>Pipes: Andrew Chan</li>
+                <li>Background: <a href="https://www.123RF.com">https://www.123RF.com</a></li>
+                <li>Music: 8 Bit Beginning! and Love! by HeatleyBros</li>
+                <li>Skeleton: Built off App Academy project reference</li>
+            </ul>
+        </aside>
+    </section>
+</body>
+</html>

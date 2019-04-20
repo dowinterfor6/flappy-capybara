@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    font-size: 1em;
+    -webkit-user-select: none;
+}
+
+.nav-description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-description:hover {
+    cursor: default;
+}
+
+.nav-description h1 {
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.nav-description h2 {
+    font-variant: all-small-caps;
+}
+
+.nav-bar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar-right ul {
+    display: flex;
+    justify-content: end;
+}
+
+.nav-bar-right li {
+    display: inline;
+    padding: 0px 10px;
+    border-left: 1px solid black;
+}
+
+.nav-bar-right li:first-of-type {
+    border: none;
+}
+
+.nav-bar-right a:hover {
+    color: grey;
+    transition: color 0.5s;
+}
+
+.nav-bar-right img {
+    width: 90px;
+    height: 68px;
+    transform: scaleX(-1);
+}
+
+.main-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.main-content a {
+    text-decoration: underline;
+}
+
+.main-content aside {
+    width: 80%;
+    height: 100%;
+    margin: 0 5%;
+    line-height: 2em;
+}
+
+.main-content h2 {
+    font-size: 1.5em;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-bottom: 1px solid black;
+}
+
+.main-content li {
+    margin-bottom: 1em;
+}
+
+#capy-game {
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px; */
+    cursor: pointer;
+}
